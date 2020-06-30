@@ -32,7 +32,7 @@ jobs:
       go: 1.13.x
       script:
         - GOPROXY=https://proxy.golang.org make travis-ci
-    name: Verify
+    - name: Verify
       arch: arm64
       os: linux
       go: 1.13.x
