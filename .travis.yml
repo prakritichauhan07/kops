@@ -26,7 +26,8 @@ jobs:
     #  arch: arm64
 
   include:
-    - arch: arm64
+    - name: verify
+      arch: arm64
       os: linux
       go: 1.13.x
       script:
