@@ -21,9 +21,9 @@ jobs:
   exclude:
     - os: osx
       go: 1.13.x
-    - os: linux
-      go: 1.13.x
-      arch: arm64
+    #- os: linux
+    #  go: 1.13.x
+    #  arch: arm64
 
   include:
     - arch: arm64
